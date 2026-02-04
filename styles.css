@@ -1,0 +1,109 @@
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    padding-bottom: 1px;
+    border: 2px solid black;
+    border-bottom: 0px;
+}
+nav ul{
+   list-style: none;
+   display: flex;
+   justify-content: center; 
+   padding-top: 5px;
+}
+nav li{
+    margin: 0 20px;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+#gitPic{
+    max-width: 10%;
+    border-radius: 30px;
+    padding-bottom: 15px;
+}
+#link{
+    max-width: 10%;
+    border-radius: 4px;
+    padding-bottom: 10px;
+}
+
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 2px solid black;
+    border-bottom: 0px;
+}
+#pic{
+    max-width: 85%;
+    border-radius: 40px;
+    align-items: right;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: 2px solid black;
+}
+.container{
+    max-width: 960px;
+    text-align: center;
+    padding: 40px;
+    margin: auto;
+}
+#about{
+    display: flex;
+    align-items: flex-start;
+    background-color: #333;
+    border: 5px solid black;
+    border-bottom: 0px;
+}
+.leftContainer{
+    width: 300px;
+    padding: 75px;
+    padding-left: 400px;
+    
+}
+.rightContainer{
+    width: 500px;
+    height: 500px;
+    text-align: left;
+    padding: 120px;
+    padding-left: 50px;
+    color: white;
+}
+#largeText{
+    font-size: 40pt;
+}
+p{
+    margin: 0%;
+}
+b{
+    font-size: 20pt;
+}
+#aboutP{
+    padding-top: 30px;
+}
+.project{
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+#contact{
+    background-color: #333;
+    color: white;
+    border: 2px solid black;
+    border-bottom: 0px;
+}
+
+#projects {
+    background-color: #333;
+    color: white;
+    border: 2px solid black;
+    border-bottom: 0px;
+}
