@@ -39,7 +39,7 @@ body{
     border-bottom: 0px;
 }
 #pic{
-    max-width: 85%;
+    max-width: 120%;
     border-radius: 40px;
     align-items: right;
 }
