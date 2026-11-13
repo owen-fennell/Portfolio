@@ -1,0 +1,82 @@
+{
+  "headshot": {
+    "sm": {
+      "width": 432,
+      "height": 540
+    },
+    "lg": {
+      "width": 864,
+      "height": 1080
+    }
+  },
+  "movierec-compare": {
+    "sm": {
+      "width": 704,
+      "height": 454
+    },
+    "lg": {
+      "width": 1408,
+      "height": 907
+    }
+  },
+  "movierec-home": {
+    "sm": {
+      "width": 704,
+      "height": 452
+    },
+    "lg": {
+      "width": 1408,
+      "height": 903
+    }
+  },
+  "movierec-recommend": {
+    "sm": {
+      "width": 704,
+      "height": 453
+    },
+    "lg": {
+      "width": 1408,
+      "height": 906
+    }
+  },
+  "trueyou-team": {
+    "sm": {
+      "width": 704,
+      "height": 469
+    },
+    "lg": {
+      "width": 1408,
+      "height": 939
+    }
+  },
+  "casino-home": {
+    "sm": {
+      "width": 720,
+      "height": 450
+    },
+    "lg": {
+      "width": 1440,
+      "height": 900
+    }
+  },
+  "casino-blackjack": {
+    "sm": {
+      "width": 720,
+      "height": 450
+    },
+    "lg": {
+      "width": 1440,
+      "height": 900
+    }
+  },
+  "casino-baccarat": {
+    "sm": {
+      "width": 720,
+      "height": 450
+    },
+    "lg": {
+      "width": 1440,
+      "height": 900
+    }
+  }
+}

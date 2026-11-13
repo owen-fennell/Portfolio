@@ -1,66 +1,62 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width-device">
-        <title>Owen's Portfolio</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
+    <title>Owen Fennell — Software Engineering Student</title>
+    <meta
+      name="description"
+      content="Owen Fennell is a Software Engineering student at Iowa State University and an incoming Technology Intern at Nationwide. Projects in React, TypeScript, Python, Flask, and embedded C."
+    />
+    <meta name="author" content="Owen Fennell" />
+    <meta name="theme-color" content="#0b0b0c" />
+    <meta name="color-scheme" content="dark" />
+    <link rel="canonical" href="https://owen-fennell.github.io/Portfolio/" />
 
-    <body>
-        <header>
-            <nav>
-                <ul>
-                    <li align="right"><a href="https://github.com/owen-fennell">
-                        <img src="images\githubLogo.jpg" alt="Github" id="gitPic">
-                    </a></li>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact Me</a></li>
-                    <li><a href="https://www.linkedin.com/in/owen-fennell">
-                        <img src="images/linkedInLogo.jpg" alt="LinkedIn" id="link">
-                    </a></li>
-                </ul>
-            </nav>
-        </header>
-        <section id="about">
-            <div class="leftContainer" align="center">
-                <img src="images\26CompositePic.png" alt="pic" id="pic">
-            </div>
-            <div class="rightContainer">
-                <p>Hello, I'm Owen Fennell,</p>
-                <em id="largeText">Software Engineering Student</em>
-                <br><br><br><br><br><br><br><br><br><br>
-                <b>About Me:</b>
-                <p id="aboutP">I am from a small town in South West Wisconsin, and some of my hobbies include weightlifting, basketball, and socializing with friends.
-                </p>
-            </div>
-        </section>
-        <section id="projects">
-            <div class="container">
-                <h2>Projects</h2>
-                <div class="project">
-                    <img src="images/goldenShores.png" alt="casino">
-                    <h3>Golden Shores Casino</h3>
-                    <p>A fully client-side casino web application developed using HTML, CSS, and JavaScript. The project features modular game logic for 
-                        Slots, Blackjack, and Baccarat, with a shared home interface that routes users to each game.</p>
-                </div>
-            </div>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
-        </section>
-        <section id="contact"> 
-            <div class="container">
-                <h2>Contact Me</h2>
-                <p>Email: owenf718@iastate.edu</p>
-                <p>Phone: 608-482-5426</p>
-            </div>
-        </section>
-        <footer>
-            <p>&copy; 2026 Owen Fennell</p>
-        </footer>
-    </body>
+    <!-- Open Graph / link previews -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Owen Fennell" />
+    <meta property="og:title" content="Owen Fennell — Software Engineering Student" />
+    <meta
+      property="og:description"
+      content="Software Engineering student at Iowa State University building full-stack and embedded projects. Incoming Technology Intern at Nationwide."
+    />
+    <meta property="og:url" content="https://owen-fennell.github.io/Portfolio/" />
+    <meta property="og:image" content="https://owen-fennell.github.io/Portfolio/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Owen Fennell — Software Engineering Student at Iowa State University" />
+    <meta name="twitter:card" content="summary_large_image" />
 
-
-
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Owen Fennell",
+        "url": "https://owen-fennell.github.io/Portfolio/",
+        "image": "https://owen-fennell.github.io/Portfolio/og-image.png",
+        "jobTitle": "Software Engineering Student",
+        "email": "mailto:owenf718@iastate.edu",
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Iowa State University"
+        },
+        "sameAs": ["https://github.com/owen-fennell", "https://www.linkedin.com/in/owen-fennell"]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <p style="padding: 2rem; font-family: system-ui, sans-serif; color: #edece7; background: #0b0b0c">
+        Owen Fennell — Software Engineering student at Iowa State University. This site needs JavaScript to
+        display. You can reach me at owenf718@iastate.edu or find my work at github.com/owen-fennell.
+      </p>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
